@@ -7,14 +7,14 @@ module.exports = {
     // You can overwrite values here that are used for the SEO component
     // You can also add new values here to query them like usual
     // See all options: https://github.com/LekoArts/gatsby-themes/blob/main/themes/gatsby-theme-jodie/gatsby-config.js
-    siteTitle: `Jodie`,
-    siteTitleAlt: `Jodie - Gatsby Starter Portfolio`,
-    siteHeadline: `Jodie - Gatsby Theme from @lekoarts`,
-    siteUrl: `https://jodie.lekoarts.de`,
+    siteTitle: `AJ Studio Pro LLC`,
+    siteTitleAlt: `AJ Studio Pro - Photography and Videography in the DMV area`,
+    siteHeadline: `AJ Studio Pro - Photography and Videography in the DMV area`,
+    siteUrl: `https://www.ajstudiopro.com`,
     siteDescription: `Image-heavy photography portfolio with colorful accents & customizable pages. Includes adaptive image grids powered by CSS grid and automatic image integration into projects.`,
     siteLanguage: `en`,
     siteImage: `/banner.jpg`,
-    author: `@lekoarts_de`,
+    author: `@ajstudiopro`,
   },
   plugins: [
     {
@@ -22,7 +22,7 @@ module.exports = {
       // See the theme's README for all available options
       options: {
         navigation: [
-          { name: `Projects`, slug: `/projects` },
+          { name: `Photos`, slug: `/projects` },
           { name: `Art`, slug: `/art` },
           { name: `About`, slug: `/about` },
         ],
