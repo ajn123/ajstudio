@@ -7,14 +7,22 @@ module.exports = {
     // You can overwrite values here that are used for the SEO component
     // You can also add new values here to query them like usual
     // See all options: https://github.com/LekoArts/gatsby-themes/blob/main/themes/gatsby-theme-jodie/gatsby-config.js
+<<<<<<< HEAD
     siteTitle: `AJ Studio Pro`,
     siteTitleAlt: `AJ Studio Pro - Photography & Videography`,
     siteHeadline: `AJ Studio Pro - Photography & Videography in the DMV`,
     siteUrl: `https://www.ajstudiopro.com`,
     siteDescription: `Professional Portrait, Pet, Bouduir, and event photography in the DMV area`,
+=======
+    siteTitle: `AJ Studio Pro LLC`,
+    siteTitleAlt: `AJ Studio Pro - Photography and Videography in the DMV area`,
+    siteHeadline: `AJ Studio Pro - Photography and Videography in the DMV area`,
+    siteUrl: `https://www.ajstudiopro.com`,
+    siteDescription: `Image-heavy photography portfolio with colorful accents & customizable pages. Includes adaptive image grids powered by CSS grid and automatic image integration into projects.`,
+>>>>>>> merge_tree
     siteLanguage: `en`,
     siteImage: `/banner.jpg`,
-    author: `@lekoarts_de`,
+    author: `@ajstudiopro`,
   },
   plugins: [
     {
