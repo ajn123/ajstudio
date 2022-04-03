@@ -36,13 +36,14 @@ module.exports = {
     //     },
     // },
      {
-      resolve: `gatsby-plugin-tawk`,
+      resolve: `gatsby-plugin-tawk.to`,
       options: {
         tawkId: "6249c2da2abe5b455fc41a9c",
+        tawkKey: "1fvo229d7",
         // get this from the tawk script widget
+        // https://tawk.to/chat/YOUR_TAWK_ID/YOUR_TAWK_KEY
       },
     },
-
     {
       resolve: `gatsby-omni-font-loader`,
       options: {
