@@ -24,6 +24,7 @@ module.exports = {
         navigation: [
           { name: `About`, slug: `/about` },
           { name: `Photos`, slug: `/projects` },
+          { name: `Contact`, slug: `/contact` },
         ],
         homepageProjectLimit: 100,
       },
