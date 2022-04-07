@@ -17,6 +17,14 @@ module.exports = {
     author: `@ajstudiopro`,
   },
   plugins: [
+  {
+      resolve: `gatsby-plugin-google-analytics`,
+      options: {
+        trackingId: "UA-225263838-1",
+        head: true,
+        anonymize: true,
+      },
+    },
     {
       resolve: `@lekoarts/gatsby-theme-jodie`,
       // See the theme's README for all available options
