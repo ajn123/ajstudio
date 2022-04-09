@@ -33,6 +33,7 @@ module.exports = {
           { name: `About`, slug: `/about` },
           { name: `Photos`, slug: `/projects` },
           { name: `Contact`, slug: `/contact` },
+          { name: `Gear`, slug: `/gear` },
         ],
         homepageProjectLimit: 100,
       },
