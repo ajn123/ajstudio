@@ -43,9 +43,11 @@ const Navigation = ({ bg }: { bg: string }) => {
         <li>
         <a href="http://www.instagram.com/ajstudiopro" target="_blank"> Instagram </a>
           </li>
-          
           <li>
         <a href="https://ajstudiopro.setmore.com" target="_blank"> Schedule </a>
+          </li>
+          <li>
+        <a href="https://ajstudiopro.substack.com/" target="_blank"> Blog </a>
           </li>
       </ul>
     </nav>
