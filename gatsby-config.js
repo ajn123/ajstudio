@@ -1,6 +1,6 @@
-require(`dotenv`).config()
+require(`dotenv`).config();
 
-const shouldAnalyseBundle = process.env.ANALYSE_BUNDLE
+const shouldAnalyseBundle = process.env.ANALYSE_BUNDLE;
 
 module.exports = {
   siteMetadata: {
@@ -11,13 +11,13 @@ module.exports = {
     siteTitleAlt: `AJ Studio Pro - Photography & Videography`,
     siteHeadline: `AJ Studio Pro - Photography & Videography in the DMV`,
     siteUrl: `https://www.ajstudiopro.com`,
-    siteDescription: `Professional Portrait, Pet, Bouduir, and event photography in the DMV area`,
+    siteDescription: `Professional Portrait, Product, and event photography in the DMV area`,
     siteLanguage: `en`,
     siteImage: `/banner.jpg`,
     author: `@ajstudiopro`,
   },
   plugins: [
-  {
+    {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
         trackingId: "UA-225263838-1",
@@ -34,7 +34,7 @@ module.exports = {
           { name: `Photos`, slug: `/projects` },
           { name: `Contact`, slug: `/contact` },
           { name: `Gear`, slug: `/gear` },
-          
+          { name: `Services`, slug: `/services` },
         ],
         homepageProjectLimit: 100,
       },
@@ -46,7 +46,7 @@ module.exports = {
     //         timeout: 3500, // number; the amount of time, in milliseconds, that you want to allow mailchimp to respond to your request before timing out. defaults to 3500
     //     },
     // },
-     {
+    {
       resolve: `gatsby-plugin-tawk.to`,
       options: {
         tawkId: "6249c2da2abe5b455fc41a9c",
@@ -109,4 +109,4 @@ module.exports = {
       },
     },
   ].filter(Boolean),
-}
+};
