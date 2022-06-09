@@ -50,6 +50,10 @@ const Navigation = ({ bg }: { bg: string }) => {
           <li>
         <a href="https://ajstudiopro.substack.com/" target="_blank"> Blog </a>
           </li>
+
+          <li>
+            <a rel='nofollow' target='_blank' href='https://www.weddingwire.com' title='weddingwire.com'><img alt='weddingwire.com' src='https://www.weddingwire.com/images/sellos/partner--pp2098333.png' srcset='https://www.weddingwire.com/images/sellos/partner--pp2098333.png 1x, https://www.weddingwire.com/images/sellos/partner--pp2098333.png?largeImg=true 2x' style='border-width:0px;' /></a>
+          </li>
       </ul>
     </nav>
   )
