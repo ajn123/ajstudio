@@ -48,12 +48,14 @@ const Navigation = ({ bg }: { bg: string }) => {
           </li>
        
           <li>
-        <a href="https://ajstudiopro.substack.com/" target="_blank"> Blog </a>
+            <a href="https://ajstudiopro.substack.com/" target="_blank"> Blog </a>
           </li>
 
           <li>
-            <a rel='nofollow' target='_blank' href='https://www.weddingwire.com' title='weddingwire.com'><img alt='weddingwire.com' src='https://www.weddingwire.com/images/sellos/partner--gg2098333.png' srcset='https://www.weddingwire.com/images/sellos/partner--gg2098333.png 1x, https://www.weddingwire.com/images/sellos/partner--gg2098333.png?largeImg=true 2x' style={{borderWidth : 0}} /></a>
+            <a href="https://www.youtube.com/channel/UCDpbIOFT3KJOYNU9HEZy3dA" target="_blank"> Youtube </a>
           </li>
+
+         
       </ul>
     </nav>
   )
