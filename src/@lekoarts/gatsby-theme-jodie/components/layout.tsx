@@ -48,7 +48,6 @@ const Layout = ({ children, color = `white` }: LayoutProps) => (
       })}
     />
     <Seo />
-    <SkipNavTrigger />
     <Wrapper>
       <Sidebar bg={color} />
       <main sx={{ gridColumnStart: [1, 1, 1, 2] }}>

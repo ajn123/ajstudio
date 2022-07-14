@@ -50,8 +50,6 @@ const Navigation = ({ bg }: { bg: string }) => {
           <li>
             <a href="https://www.youtube.com/channel/UCDpbIOFT3KJOYNU9HEZy3dA" target="_blank"> Youtube </a>
           </li>
-
-         
       </ul>
     </nav>
   )
