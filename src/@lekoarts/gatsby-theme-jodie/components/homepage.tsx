@@ -5,9 +5,6 @@ import { PageProps } from "gatsby"
 import { IGatsbyImageData, GatsbyImage } from "gatsby-plugin-image"
 import Layout from "./layout"
 import GridItem from "./grid-item"
-import { itemListWrapperStyles, itemStyles } from "../styles/item-list"
-import locales from "../locales"
-import { visuallyHidden } from "../styles/utils"
 import modifyGrid from "../utils/modify-grid"
 
 type DataProps = {
@@ -56,20 +53,20 @@ const Homepage: React.FC<PageProps<DataProps>> = ({ data: { pages, projects } })
 
   return (
     <Layout>
-      <h1 sx={visuallyHidden} data-testid="page-title">
-        {locales.home}
+      <h1 data-testid="page-title">
+        hi
       </h1>
-      <div className={`item-list-wrapper`} sx={itemListWrapperStyles}>
-        <div className={`item-list div${1}`}>
+      <div className={`item-list-wrapper`} >
+        <div className={`item-list div${divisor}`}>
           {items.length > 0 ? (
             items.map((item, index) => (
-              <GridItem to={item.slug} className="item" key={item.title} sx={itemStyles} data-testid={item.title}>
+              <GridItem to={item.slug} className="item" key={item.title}  data-testid={item.title}>
                 <GatsbyImage
                   loading={index === 0 ? `eager` : `lazy`}
                   image={item.cover.childImageSharp.gatsbyImageData}
                   alt=""
                 />
-                <span>{item.title} bltta</span>
+                <span>{item.title}</span>
               </GridItem>
             ))
           ) : (
