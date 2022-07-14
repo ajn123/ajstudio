@@ -24,11 +24,11 @@ export const itemListWrapperStyles: ThemeUICSSObject = {
       },
     ".div2 .item,.div3 .item:nth-of-type(6n+1),.div3 .item:nth-of-type(6n+4),.div4 .item:nth-of-type(12n+1),.div4 .item:nth-of-type(12n+5),.div4 .item:nth-of-type(12n+9),.div5 .item:nth-of-type(15n+1),.div5 .item:nth-of-type(15n+5),.div5 .item:nth-of-type(15n+6),.div5 .item:nth-of-type(15n+10),.div5 .item:nth-of-type(15n+11),.div5 .item:nth-of-type(15n+15),.div6 .item:nth-of-type(12n+1),.div6 .item:nth-of-type(12n+7),.div7 .item:nth-of-type(7n+1),.div8 .item:nth-of-type(12n+1),.div8 .item:nth-of-type(12n+5),.div8 .item:nth-of-type(12n+9),.div9 .item:nth-of-type(9n+1)":
       {
-        gridColumn: `auto / span 1`,
+        gridColumn: `auto / span 4`,
       },
   },
 }
 
 export const itemStyles: ThemeUICSSObject = {
-  minHeight: [`500px`, `700px`],
+  minHeight: [`350px`, `550px`],
 }
