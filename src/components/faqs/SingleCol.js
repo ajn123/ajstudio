@@ -44,9 +44,9 @@ export default ({
   description = "And we have got answers to all of them. Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
   faqs = [
     {
-      question: "Is lunch provided free of cost ?",
+      question: "I don't have any money, can I still get a photo?",
       answer:
-        "Yes, it is, if you have a membership with us. Otherwise it is charged as per the menu. Some limits do apply as to how much items can be included in your lunch. This limit is enough for any one person and merely exists to discourage abusal of the system."
+        "In these times, I think everyone should have a professional photo to put your best foot forward.  Feel free to reach out to me if you need a photo and we can work something out."
     },
     {
       question: "Do you have 2 Bedroom suites ?",

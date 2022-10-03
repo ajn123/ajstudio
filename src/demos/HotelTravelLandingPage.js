@@ -1,6 +1,6 @@
 import React from "react";
 import AnimationRevealPage from "helpers/AnimationRevealPage.js";
-import Hero from "components/hero/FullWidthWithImage.js";
+import Hero from "components/hero/BackgroundAsImage.js";
 import Features from "components/features/ThreeColSimple.js";
 import MainFeature from "components/features/TwoColSingleFeatureWithStats.js";
 import SliderCard from "components/cards/ThreeColSlider.js";
@@ -16,7 +16,6 @@ export default () => (
     <Hero />
 
     <Pricing plans={[
-
     {
       name: "Application Photos",
       price: "Free",
@@ -29,8 +28,8 @@ export default () => (
       name: "Headshots",
       price: "$75.00",
       duration: "Per Photo",
-      mainFeature: "Suited for Personal/Professional/Website Use",
-      features: ["All Photos Edited","1 Hour Studio Time", "Free Consultation", ],
+      mainFeature: "Suited for Professional/Website Use",
+      features: ["All Photos Edited","1 Hour Studio Time", "Free Consultation"],
       featured: true,
     },
     {
@@ -38,7 +37,7 @@ export default () => (
       price: "$150",
       duration: "Hourly",
       mainFeature: "Suited for Professional Events",
-      features: ["All Photos Edited", "You keep all digital copies", "You own the copyright", "all physical copies are extra"],
+      features: ["All Photos Edited", "You keep all digital copies", "You own the copyright", "Video Recording Available", "all physical copies are extra"],
       featured: true,
     },
     {
@@ -46,16 +45,13 @@ export default () => (
       price: "Contact US",
       duration: "One Time",
       mainFeature: "Suited for Big Events/Companies",
-      features: ["All Photos Edited","Personal Consultation", "Physical copies available for purchase"],
+      features: ["All Photos Edited","Personal Consultation", "Video Recording Available" ,"Physical copies available for purchase"],
       featured: true,
     },
   ]}
   description="Love to help anyone trying to apply for a job, put their best foot forward or capture a special memory for all time."
 />
     <SliderCard />
-    <TrendingCard />
-    <MainFeature />
-    <Blog />
     <Testimonial textOnLeft={true}/>
     <FAQ />
     <SubscribeNewsLetterForm />

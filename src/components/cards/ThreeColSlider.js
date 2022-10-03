@@ -37,7 +37,7 @@ const CardSlider = styled(Slider)`
 const Card = tw.div`h-full flex! flex-col sm:border max-w-sm sm:rounded-tl-4xl sm:rounded-br-5xl relative focus:outline-none`;
 const CardImage = styled.div(props => [
   `background-image: url("${props.imageSrc}");`,
-  tw`w-full h-56 sm:h-64 bg-cover bg-center rounded sm:rounded-none sm:rounded-tl-4xl`
+  tw`h-96 sm:h-96 bg-cover bg-center  sm:rounded-tl-4xl`
 ]);
 
 const TextInfo = tw.div`py-6 sm:px-10 sm:py-6`;
@@ -91,44 +91,37 @@ export default () => {
   /* Change this according to your needs */
   const cards = [
     {
-      imageSrc: "https://images.unsplash.com/photo-1571896349842-33c89424de2d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&h=1024&w=768&q=80",
-      title: "Wyatt Residency",
-      description: "Lorem ipsum dolor sit amet, consectur dolori adipiscing elit, sed do eiusmod tempor nova incididunt ut labore et dolore magna aliqua.",
-      locationText: "Rome, Italy",
-      pricingText: "USD 39/Day",
-      rating: "4.8",
+      imageSrc: "https://live.staticflickr.com/65535/52131884807_9ba184279d_k.jpg%5B/img%5D%5B/url%5D%5Burl=https://flic.kr/p/2nqHx78%5D192A6287-Edit%5B/url%5D",
+      title: "Smith Wedding",
+      description: "Great Outdoor family Wedding",
+      locationText: "Silver Spring, Maryland",
     },
     {
-      imageSrc: "https://images.unsplash.com/photo-1571003123894-1f0594d2b5d9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&h=1024&w=768&q=80",
-      title: "Soho Paradise",
-      description: "Lorem ipsum dolor sit amet, consectur dolori adipiscing elit, sed do eiusmod tempor nova incididunt ut labore et dolore magna aliqua.",
-      locationText: "Ibiza, Spain",
-      pricingText: "USD 50/Day",
-      rating: 4.9,
+      imageSrc: "https://live.staticflickr.com/65535/52381177402_781d42c250_k.jpg%5B/img%5D%5B/url%5D%5Burl=https://flic.kr/p/2nNKe7j%5D192A3752%5B/url%5D",
+      title: "Elopement",
+      description: "Small Elopement at a great location in the national cathedral",
+      locationText: "National Cathedral, DC",
     },
     {
-      imageSrc: "https://images.unsplash.com/photo-1549294413-26f195200c16?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&h=1024&w=768&q=80",
-      title: "Hotel Baja",
-      description: "Lorem ipsum dolor sit amet, consectur dolori adipiscing elit, sed do eiusmod tempor nova incididunt ut labore et dolore magna aliqua.",
-      locationText: "Palo Alto, CA",
-      pricingText: "USD 19/Day",
-      rating: "5.0",
+      imageSrc: "https://live.staticflickr.com/65535/52382536910_e15bef75dd_k.jpg%5B/img%5D%5B/url%5D%5Burl=https://flic.kr/p/2nNScf7%5D192A1389-2%5B/url%5D",
+      title: "Vanessa & Omar Wedding",
+      description: "Shot group, bride, group, ceremony and drone shots a great location in northern Virginia",
+      locationText: "Lansdowne Resort, VA",
     },
     {
-      imageSrc: "https://images.unsplash.com/photo-1571770095004-6b61b1cf308a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&h=1024&w=768&q=80",
-      title: "Hudak Homes",
-      description: "Lorem ipsum dolor sit amet, consectur dolori adipiscing elit, sed do eiusmod tempor nova incididunt ut labore et dolore magna aliqua.",
-      locationText: "Arizona, RAK",
-      pricingText: "USD 99/Day",
-      rating: 4.5,
-    },
+
+      imageSrc: "https://live.staticflickr.com/65535/52346873229_9638c59e86_k.jpg%5B/img%5D%5B/url%5D%5Burl=https://flic.kr/p/2nKHpF4%5D192A0282%5B/url%5D",
+      title: "Vanessa & Omar Wedding",
+      description: "Shot group, bride, group, ceremony and drone shots a great location in northern Virginia",
+      locationText: "Meadowlark Botanical Gardens, VA",
+    }
   ]
 
   return (
     <Container>
       <Content>
         <HeadingWithControl>
-          <Heading>Popular Hotels</Heading>
+          <Heading>Recent Photoshoots</Heading>
           <Controls>
             <PrevButton onClick={sliderRef?.slickPrev}><ChevronLeftIcon/></PrevButton>
             <NextButton onClick={sliderRef?.slickNext}><ChevronRightIcon/></NextButton>
@@ -153,12 +146,7 @@ export default () => {
                     </IconContainer>
                     <Text>{card.locationText}</Text>
                   </IconWithText>
-                  <IconWithText>
-                    <IconContainer>
-                      <PriceIcon />
-                    </IconContainer>
-                    <Text>{card.pricingText}</Text>
-                  </IconWithText>
+                
                 </SecondaryInfoContainer>
                 <Description>{card.description}</Description>
               </TextInfo>

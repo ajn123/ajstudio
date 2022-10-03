@@ -68,7 +68,7 @@ const DecoratorBlob2 = tw(
 export default ({
   subheading = "",
   heading = "Testimonials",
-  description = "Here are what some of our amazing customers are saying about our hotels & tours. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+  description = "Here are what some of our amazing customers are saying about our Photograhpy and Service.",
   testimonials = null,
   textOnLeft = false
 }) => {
@@ -83,9 +83,9 @@ export default ({
       profileImageSrc:
         "https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=3.25&w=512&h=512&q=80",
       quote:
-        "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia.",
-      customerName: "Charlotte Hale",
-      customerTitle: "CEO, Delos Inc."
+         "AJ was a great and reliable photographer for my proposal photos! He showed up well on time and in the perfect spot. More than that, he was very accommodating and suggested different spots to continue a photoshoot if we wanted. He took great photos and made us feel comfortable throughout the process",
+      customerName: "Eric",
+      customerTitle: ""
     },
     {
       imageSrc:
@@ -93,9 +93,8 @@ export default ({
       profileImageSrc:
         "https://images.unsplash.com/photo-1531427186611-ecfd6d936c79?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2.25&w=512&h=512&q=80",
       quote:
-        "Sinor Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia.",
-      customerName: "Adam Cuppy",
-      customerTitle: "Founder, EventsNYC"
+      "AJ was the videographer for my cultural wedding ceremony. Following up to the event we chatted a couple times to go over expectations and the schedule of events. Although I only requested raw footage as I will be doing the video editing myself, AJ delivered the raw footage to me by the end of the night, and put together a small compilation which was a bonus. Overall great service and great value! Thanks AJ!",
+      customerName: "Arinna",
     }
   ];
 
@@ -140,7 +139,7 @@ export default ({
                         </Quote>
                       </QuoteContainer>
                       <CustomerInfo>
-                        <CustomerProfilePicture src={testimonial.profileImageSrc} alt={testimonial.customerName} />
+                        
                         <CustomerTextInfo>
                           <CustomerName>{testimonial.customerName}</CustomerName>
                           <CustomerTitle>{testimonial.customerTitle}</CustomerTitle>

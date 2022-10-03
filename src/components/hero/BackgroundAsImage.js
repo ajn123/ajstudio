@@ -61,20 +61,12 @@ export default () => {
       <NavLink href="#">
         About
       </NavLink>
-      <NavLink href="#">
-        Blog
-      </NavLink>
-      <NavLink href="#">
-        Locations
-      </NavLink>
-      <NavLink href="#">
+      <NavLink href="#prices">
         Pricing
       </NavLink>
     </NavLinks>,
     <NavLinks key={2}>
-      <PrimaryLink href="/#">
-        Hire Us
-      </PrimaryLink>
+
     </NavLinks>
   ];
 
@@ -85,19 +77,16 @@ export default () => {
         <StyledHeader links={navLinks} />
         <TwoColumn>
           <LeftColumn>
-            <Notification>We have now launched operations in Europe.</Notification>
+            <Notification>We have now opened a Studio in Falls Church</Notification>
             <Heading>
               <span>Hire the best</span>
               <br />
-              <SlantedBackground>Marketing Team.</SlantedBackground>
+              <SlantedBackground>Local Photographer in Your area</SlantedBackground>
             </Heading>
             <PrimaryAction>Read Customer Stories</PrimaryAction>
           </LeftColumn>
           <RightColumn>
-            <StyledResponsiveVideoEmbed
-              url="//player.vimeo.com/video/374265101?title=0&portrait=0&byline=0&autoplay=0&responsive=1"
-              background="transparent"
-            />
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/NMXb8_6Fi20" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
           </RightColumn>
         </TwoColumn>
       </HeroContainer>
