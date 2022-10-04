@@ -40,10 +40,9 @@ export default () => {
             <LogoText>AJ Studio Pro</LogoText>
           </LogoContainer>
           <LinksContainer>
-            <Link href="#">Home</Link>
-            <Link href="#">About</Link>
+            <Link href="#faq">FAQ</Link>
             <Link href="#prices">Prices</Link>
-            <Link href="#">Reviews</Link>
+            <Link href="#reviews">Reviews</Link>
           </LinksContainer>
           <SocialLinksContainer>
             <SocialLink href="https://www.youtube.com/channel/UCDpbIOFT3KJOYNU9HEZy3dA">

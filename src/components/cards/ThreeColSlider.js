@@ -118,7 +118,7 @@ export default () => {
   ]
 
   return (
-    <Container>
+    <Container id="portfolio">
       <Content>
         <HeadingWithControl>
           <Heading>Recent Photoshoots</Heading>
@@ -150,7 +150,12 @@ export default () => {
                 </SecondaryInfoContainer>
                 <Description>{card.description}</Description>
               </TextInfo>
-              <PrimaryButton>Book Now</PrimaryButton>
+              <PrimaryButton >
+
+<a href="https://ajstudiopro.setmore.com/ajstudiopro" style={{color: 'white'}}>
+                Book Now
+                </a>
+</PrimaryButton>
             </Card>
           ))}
         </CardSlider>

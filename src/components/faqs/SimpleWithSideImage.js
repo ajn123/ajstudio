@@ -84,7 +84,7 @@ export default ({
   };
 
   return (
-    <Container>
+    <Container id="faq">
       <Content>
         <TwoColumn>
           <Column tw="hidden lg:block w-5/12 flex-shrink-0">
