@@ -106,14 +106,14 @@ import ThankYouPage from "ThankYouPage.js";
 
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
- export default function App() {
+// export default function App() {
 //   // If you want to disable the animation just use the disabled `prop` like below on your page's component
 //   // return <AnimationRevealPage disabled>xxxxxxxxxx</AnimationRevealPage>;
 
 
-  return (
-    <>
-          <HotelTravelLandingPage/>
+//   return (
+//     <>
+ //         <HotelTravelLandingPage/>
 //       <GlobalStyles />
 //       <Router>
 //         <Routes>
@@ -123,11 +123,11 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 //           <Route path="/" element={<MainLandingPage />} />
 //         </Routes>
 //       </Router>
-    </>
-  );
-}
+//     </>
+//   );
+// }
 
-//export default HotelTravelLandingPage;
+ export default HotelTravelLandingPage;
 // export default AgencyLandingPage;
 // export default SaaSProductLandingPage;
 // export default RestaurantLandingPage;
