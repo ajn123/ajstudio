@@ -83,7 +83,9 @@ export default () => {
               <br />
               <SlantedBackground>Local Photographer in Your area</SlantedBackground>
             </Heading>
+            <a href="#reviews">
             <PrimaryAction>Read Customer Stories</PrimaryAction>
+            </a>
           </LeftColumn>
           <RightColumn>
             <iframe width="560" height="315" src="https://www.youtube.com/embed/NMXb8_6Fi20" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

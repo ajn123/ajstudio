@@ -110,10 +110,10 @@ export default () => {
     },
     {
 
-      imageSrc: "https://live.staticflickr.com/65535/52346873229_9638c59e86_k.jpg%5B/img%5D%5B/url%5D%5Burl=https://flic.kr/p/2nKHpF4%5D192A0282%5B/url%5D",
-      title: "Vanessa & Omar Wedding",
-      description: "Shot group, bride, group, ceremony and drone shots a great location in northern Virginia",
-      locationText: "Meadowlark Botanical Gardens, VA",
+      imageSrc: "https://live.staticflickr.com/65535/52228598659_f1a383ec73_k.jpg",
+      title: "Elopement",
+      description: "A great photoshoot along the waterfront in Old Town!",
+      locationText: "Old Town Alexandria, VA",
     }
   ]
 

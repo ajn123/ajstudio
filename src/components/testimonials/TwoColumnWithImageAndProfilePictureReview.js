@@ -79,7 +79,7 @@ export default ({
   const defaultTestimonials = [
     {
       imageSrc:
-        "https://images.unsplash.com/photo-1512100356356-de1b84283e18?ixlib=rb-1.2.1&auto=format&fit=crop&w=1024&q=80",
+      "https://live.staticflickr.com/65535/52204544850_374a6597a8_k.jpg",
       profileImageSrc:
         "https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=3.25&w=512&h=512&q=80",
       quote:
@@ -95,6 +95,13 @@ export default ({
       quote:
       "AJ was the videographer for my cultural wedding ceremony. Following up to the event we chatted a couple times to go over expectations and the schedule of events. Although I only requested raw footage as I will be doing the video editing myself, AJ delivered the raw footage to me by the end of the night, and put together a small compilation which was a bonus. Overall great service and great value! Thanks AJ!",
       customerName: "Arinna",
+    },
+    {
+      imageSrc:
+      "https://live.staticflickr.com/65535/52086908777_bac1aa95b8_k.jpg%5B/img%5D%5B/url%5D%5Burl=https://flic.kr/p/2nmK2ik%5D192A5322-2-Edit%5B/url%5D",
+      quote:
+      "AJ provides a variety of photography options. I was able to get dozens of high quality headshots that were promptly sent to me after. Significantly more affordable than competitors as well. You can tell AJ has a ton of experience. I’d highly recommend to anyone seeking photography for any purpose.",
+      customerName: "Dylan",
     }
   ];
 
@@ -105,7 +112,7 @@ export default ({
   const [textSliderRef, setTextSliderRef] = useState(null);
 
   return (
-    <Container>
+    <Container id="reviews">
       <Content>
         <HeadingInfo tw="text-center lg:hidden" subheading={subheading} heading={heading} description={description} />
         <TestimonialsContainer>

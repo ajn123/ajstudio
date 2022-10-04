@@ -81,13 +81,12 @@ const DecoratorBlob = styled(SvgDecoratorBlob)`
   ${tw`pointer-events-none -z-20 absolute left-0 bottom-0 h-64 w-64 opacity-25 transform -translate-x-1/2 translate-y-1/2`}
 `;
 
-
 export default ({
   subheading = "Pricing",
   heading = "Flexible Plans.",
   description = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
   plans = null,
-  primaryButtonText = "Buy Now"
+  primaryButtonText = "Reserve Now"
 }) => {
   const defaultPlans = [
     {
@@ -157,7 +156,11 @@ export default ({
                 ))}
               </PlanFeatures>
               <PlanAction>
-                <BuyNowButton css={!plan.featured && highlightGradientsCss[index]}>{primaryButtonText}</BuyNowButton>
+                <BuyNowButton css={!plan.featured && highlightGradientsCss[index]}>
+                <a href="https://ajstudiopro.setmore.com/ajstudiopro">
+                {primaryButtonText}
+                </a>
+                </BuyNowButton>
               </PlanAction>
             </Plan>
           ))}

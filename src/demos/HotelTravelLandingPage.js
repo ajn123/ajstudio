@@ -13,8 +13,7 @@ import Footer from "components/footers/MiniCenteredFooter.js";
 import Pricing from "components/pricing/ThreePlans.js"
 export default () => (
   <AnimationRevealPage>
-    <Hero />
-
+    <Hero disabled={true}/>
     <Pricing plans={[
     {
       name: "Application Photos",
@@ -54,7 +53,6 @@ export default () => (
     <SliderCard />
     <Testimonial textOnLeft={true}/>
     <FAQ />
-    <SubscribeNewsLetterForm />
     <Footer />
   </AnimationRevealPage>
 );

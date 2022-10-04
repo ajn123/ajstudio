@@ -6,6 +6,7 @@ import logo from "../../images/logo.svg";
 import { ReactComponent as FacebookIcon } from "../../images/facebook-icon.svg";
 import { ReactComponent as TwitterIcon } from "../../images/twitter-icon.svg";
 import { ReactComponent as YoutubeIcon } from "../../images/youtube-icon.svg";
+import { ReactComponent as InstagramIcon } from "../../images/instagram.png";
 
 
 const Container = tw(ContainerBase)`bg-gray-900 text-gray-100 -mx-8 -mb-8`
@@ -36,28 +37,23 @@ export default () => {
         <Row>
           <LogoContainer>
             <LogoImg src={logo} />
-            <LogoText>Treact</LogoText>
+            <LogoText>AJ Studio Pro</LogoText>
           </LogoContainer>
           <LinksContainer>
             <Link href="#">Home</Link>
             <Link href="#">About</Link>
-            <Link href="#">Contact Us</Link>
-            <Link href="#">Blog</Link>
+            <Link href="#prices">Prices</Link>
             <Link href="#">Reviews</Link>
           </LinksContainer>
           <SocialLinksContainer>
-            <SocialLink href="https://facebook.com">
-              <FacebookIcon />
-            </SocialLink>
-            <SocialLink href="https://twitter.com">
-              <TwitterIcon />
-            </SocialLink>
-            <SocialLink href="https://youtube.com">
+            <SocialLink href="https://www.youtube.com/channel/UCDpbIOFT3KJOYNU9HEZy3dA">
               <YoutubeIcon />
+            </SocialLink>
+              <SocialLink href="https://www.youtube.com/channel/UCDpbIOFT3KJOYNU9HEZy3dA">
             </SocialLink>
           </SocialLinksContainer>
           <CopyrightText>
-            &copy; Copyright 2020, Treact Inc. All Rights Reserved.
+            &copy; Copyright 2022, AJ Studio Pro LLC. All Rights Reserved.
           </CopyrightText>
         </Row>
       </Content>
