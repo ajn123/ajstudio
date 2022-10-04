@@ -25,7 +25,6 @@ module.exports = {
         anonymize: true,
       },
     },
-    },
     // {
     //     resolve: 'gatsby-plugin-mailchimp',
     //     options: {
