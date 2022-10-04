@@ -41,7 +41,7 @@ export default ({
   subheading = "",
   heading = "Questions",
   description = "Here are some frequently asked questions about our Photograhpy from our loving customers.",
-  imageSrc = "https://github.com/ajn123/ajstudio/blob/master/content/pages/about/pages-about-001.jpg?raw=true",
+  imageSrc = "https://live.staticflickr.com/65535/52062077440_5699a7f2d4_k.jpg",
   imageContain = false,
   imageShadow = true,
   faqs = null
